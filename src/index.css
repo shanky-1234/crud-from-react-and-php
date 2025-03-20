@@ -1,0 +1,26 @@
+:root{
+  --font: "Roboto", sans-serif;
+}
+body{
+  font-family: var(--font);
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+nav>ul{
+  display: flex;
+  gap: 24px;
+}
+
+ul>li{
+  list-style: none;
+}
+
